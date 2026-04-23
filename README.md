@@ -1,83 +1,89 @@
 # Trend Harvester 🌊
 
-> Research any topic across Reddit, Hacker News, X, YouTube in minutes
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Skill](https://img.shields.io/badge/Skill-Research_Automation-green.svg)]()
 
-**Stop manually checking 5+ platforms.** Trend Harvester aggregates signals from multiple sources and generates actionable trend reports.
+> **Research any topic across 5 platforms in minutes, not hours.**
 
 ## The Problem
 
-- Each platform shows different signals
-- Manual research takes hours
-- You miss important discussions on platforms you don't check
-- No way to synthesize insights across sources
+| Without Trend Harvester | With Trend Harvester |
+|------------------------|---------------------|
+| Open 5+ tabs, search each manually | One query, all platforms |
+| Miss discussions on platforms you forget to check | Comprehensive coverage |
+| Spend 2-3 hours on market research | 10-15 minutes to full report |
+| No structured synthesis | Actionable trend report with sources |
 
 ## The Solution
 
 ```
 Input: "AI agent frameworks"
   ↓
-Multi-platform search (HN, Reddit, GitHub, YouTube)
+Multi-platform search (HN, Reddit, GitHub, YouTube, Product Hunt)
   ↓
 Synthesis & ranking
   ↓
-Actionable trend report
+Actionable trend report with sources + recommended actions
 ```
 
 ## Quick Start
 
 ```
-# Ask me:
+# Ask your agent:
 "What's trending in AI agent frameworks?"
 
 # I'll search:
-- Hacker News (developer sentiment)
-- Reddit (user opinions)
-- GitHub (code trends, star velocity)
-- YouTube (tutorial demand)
+- Hacker News (developer sentiment + tech depth)
+- Reddit (user opinions + real use cases)
+- GitHub (code trends, star velocity, new repos)
+- YouTube (tutorial demand, creator attention)
+- Product Hunt (new tools, launch momentum)
 
 # And deliver:
-- Top trend with sources
-- Key findings with signals
-- Recommended actions
+- Top trends with evidence
+- Key findings with signals from each platform
+- Recommended actions ranked by impact
 ```
 
 ## Sample Output
 
 ```markdown
-# Trend Report: AI Agent Frameworks (2026-04-21)
+# Trend Report: AI Agent Frameworks (2026-04-24)
 
-🔥 Top Trend: Multi-agent orchestration (Superpowers 161K⭐)
+🔥 Top Trend: Self-evolving agents (hermes-agent 112K⭐)
 
 ## Key Findings
 
-### 1. Superpowers Dominates
-- **Signal:** Strong (HN, Reddit, GitHub)
-- **161K stars in 3 months**
-- Mandatory workflow enforcement is the killer feature
+### 1. Self-Evolution Dominates
+- **Signal:** Strong (HN 387pts, Reddit r/LocalLLaMA, GitHub +25K/week)
+- **hermes-agent** 112K⭐, **evolver** 6.5K⭐
+- Skills that learn from usage are the new baseline
 
-### 2. Cognitive Debt Prevention Emerging
-- +23.5% incidents from AI code
-- New frameworks focus on comprehension gates
+### 2. MCP Security Concerns Rising
+- CVE-2026-23744 raised awareness
+- "Audit before trust" becoming standard practice
+- Security-first MCP tools gaining traction
 
-### 3. Skill Activation Rate Problem
-- Only 40% skill activation rate
-- Trigger phrase optimization is hot topic
+### 3. Token Cost Optimization Mainstream
+- 40%+ of agent discussions mention cost
+- Model routing tools (manifest 5K⭐) validated
+- Progressive disclosure becoming standard
 
 ## Recommended Actions
-1. Build skills with activation optimization
-2. Add comprehension gates to workflows
-3. Track cognitive debt in code reviews
+1. Add self-improvement loops to agent architecture
+2. Audit MCP servers before integration
+3. Implement model routing for cost savings
 ```
 
 ## Platform Coverage
 
-| Platform | What You Get |
-|----------|-------------|
-| Hacker News | Tech discussions, developer sentiment |
-| Reddit | Community opinions, use cases |
-| GitHub | Code trends, star velocity |
-| YouTube | Tutorial demand, creator attention |
-| Product Hunt | New tools, launch momentum |
+| Platform | What You Get | Signal Type |
+|----------|-------------|-------------|
+| **Hacker News** | Tech depth, developer sentiment | Comments, upvotes |
+| **Reddit** | User opinions, real use cases | Posts, comments |
+| **GitHub** | Code trends, star velocity | Stars, commits |
+| **YouTube** | Tutorial demand, creator attention | Views, comments |
+| **Product Hunt** | New tools, launch momentum | Upvotes, reviews |
 
 ## Trigger Phrases
 
@@ -87,6 +93,20 @@ Actionable trend report
 - "market research..."
 - "what are people saying about..."
 
+## Why This Matters
+
+**last30days-skill** (23.7K⭐) proved that multi-platform trend research is a top agent use case. Trend Harvester provides the same capability as a zero-dependency skill — no API keys, no external services, just structured methodology.
+
+## Related Skills
+
+- [**Token Budget Guard**](https://github.com/aptratcn/token-budget-guard) — Optimize research token costs
+- [**MCP Builder**](https://github.com/aptratcn/skill-mcp-builder) — Build tools to act on trends
+- [**Session Context Bridge**](https://github.com/aptratcn/session-context-bridge) — Persist research across sessions
+
 ## License
 
 MIT
+
+---
+
+**Stop scrolling through 5 platforms. Start harvesting trends.**
